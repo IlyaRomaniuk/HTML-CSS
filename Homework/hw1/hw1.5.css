@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://images.hdqwalls.com/download/batman-logo-roar-rp-3840x2160.jpg");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    h1{
+    text-align: center;
+    }
+    span {
+        background-color: rgb(217, 217, 219);
+
+    }
+    img{
+    background-image: url("1ph.jpg");
+        height: 300px;
+        width: 235px;
+    }
+    img{
+        background-image: url("2ph.jpg");
+        height: 300px;
+        width: 235px;
+    }
+    img{
+        background-image: url("3ph.jpg");
+        height: 300px;
+        width: 235px;
+    }
+    img{
+        background-image: url("ph4.jpg");
+        height: 300px;
+        width: 235px;
+    }
+    img{
+        background-image: url("ph5.webp");
+        height: 300px;
+        width: 235px;
+    }
+
+
+
+
