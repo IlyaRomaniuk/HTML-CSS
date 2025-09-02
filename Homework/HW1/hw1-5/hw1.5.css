@@ -12,27 +12,27 @@ body{
 
     }
     img{
-    background-image: url("1ph.jpg");
+    background-image: url("../Img/1ph.jpg");
         height: 300px;
         width: 235px;
     }
     img{
-        background-image: url("2ph.jpg");
+        background-image: url("../Img/2ph.jpg");
         height: 300px;
         width: 235px;
     }
     img{
-        background-image: url("3ph.jpg");
+        background-image: url("../Img/3ph.jpg");
         height: 300px;
         width: 235px;
     }
     img{
-        background-image: url("ph4.jpg");
+        background-image: url("../Img/ph4.jpg");
         height: 300px;
         width: 235px;
     }
     img{
-        background-image: url("ph5.webp");
+        background-image: url("../Img/ph5.webp");
         height: 300px;
         width: 235px;
     }
