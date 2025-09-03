@@ -1,7 +1,35 @@
-.flex{
-    width: 250px;
-    background-color: yellowgreen;
+*{
+    margin: 5px 10px;
+    padding-top: 5px;
+}
+body{
+    background-color: rgb(98, 148, 109);
+}
+.weather{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+.months{
+    width: 175px;
+    height: 150px;
     border-radius: 5px;
-    padding: 15px;
-    margin: 10px;
+    background-color: rgb(208, 237, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px
+}
+.months p{
+    font-size: small;
+    margin-top: 10px;
+}
+.months h3{
+    align-self: flex-start;
+    margin-bottom: 5px;
+    padding: 0;
 }
