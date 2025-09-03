@@ -1,20 +1,20 @@
 *{
-    margin: 5px 10px;
-    padding-top: 5px;
+    margin: 10px 10px;
+    padding: 0;
 }
 body{
     background-color: rgb(98, 148, 109);
 }
 .weather{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: left;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
 
 }
 .months{
-    width: 175px;
+    width: 180px;
     height: 150px;
     border-radius: 5px;
     background-color: rgb(208, 237, 194);
@@ -22,7 +22,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px
+    margin-bottom: 10px;
+    padding: 50px
 }
 .months p{
     font-size: small;
