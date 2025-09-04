@@ -23,6 +23,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin-bottom: 10px;
+    transition: 0.5s;
     padding: 50px
 }
 .months p{
@@ -34,4 +35,9 @@ body{
     margin-bottom: 5px;
     padding: 0;
 }
-.months:
+.months:hover{
+    border-radius: 5px;
+    /*border: 10px solid rgb(208, 237, 194);*/
+    transition: 1s;
+    transform: scale(1.1);
+}
