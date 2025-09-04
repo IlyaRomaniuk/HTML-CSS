@@ -1,0 +1,66 @@
+.Rubik {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+.Sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+    .Dancing{
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        height: 220px;
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: bisque;
+}
+    .Fjalla{
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 220px;
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: bisque;
+    }
+    .Indie{
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        height: 220px;
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: bisque;
+    }
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 30px;
+}
+
