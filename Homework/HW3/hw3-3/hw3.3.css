@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    font-family: Arial, sans-serif;
+}
+section p{
+    width: 90%;
+}
+#first{
+    background-color: #cd5252;
+}
+#second{
+    background-color: lightskyblue;
+}
+#third{
+    background-color: greenyellow;
+}
+h3 {
+    font-size: 32px;
+}
+a{
+    color: black;
+}
+#first a{
+    font-size: 32px;
+    font-weight: bold;
+}
+#second a{
+    font-size: 32px;
+    font-weight: bold;
+}
+#third a{
+    font-size: 32px;
+    font-weight: bold;
+}
