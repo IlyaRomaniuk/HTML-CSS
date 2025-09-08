@@ -30,4 +30,10 @@ nav ul a{
 #section-about{
     background-color: yellow;
 }
-#section-info
+#section-info{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
