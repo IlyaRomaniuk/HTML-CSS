@@ -99,3 +99,80 @@ header nav a{
     align-items: center;
     margin: 210px 0 160px 0;
 }
+/*----------------------- hero 2 ---------------------*/
+.hero_second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 160px;
+}
+.hero_second div h3{
+    width: 556px;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+    margin-bottom: 30px;
+}
+.hero_second div p{
+    width: 459px;
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+}
+.hero_second div a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    padding-top: 30px;
+}
+/*------------- hero 3 ----------------*/
+.hero_third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 206px;
+}
+.hero_third div h3{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+    width: 409px;
+    margin-bottom: 30px;
+}
+.hero_third div p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    width: 409px;
+}
+.hero_third div a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    padding-top: 30px;
+}
+
