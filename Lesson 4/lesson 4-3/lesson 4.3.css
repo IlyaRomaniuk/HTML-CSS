@@ -263,6 +263,66 @@ header nav a{
     line-height: 24px; /* 150% */
     letter-spacing: -0.5px;
 }
+/*----------------------- hero fourth --------------------*/
+.hero_fourth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+.hero_fourth h1{
+    width: 523px;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+}
+.hero_fourth button{
+
+}
+.but_first{
+    width: 160px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #5454D4;
+    border: none;
+}
+.but_second{
+    width: 344px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F7F7FB;
+    border: none;
+}
+.but_first p{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    width: 160px;
+}
+.but_second p{
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    width: 160px;
+
+}
+
 
 
 
