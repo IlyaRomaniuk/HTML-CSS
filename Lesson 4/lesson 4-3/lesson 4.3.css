@@ -280,26 +280,18 @@ header nav a{
     line-height: 70px; /* 116.667% */
     letter-spacing: -1.876px;
 }
-.hero_fourth button{
-
-}
-.but_first{
+.hero_fourth_but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 160px;
     height: 55px;
     flex-shrink: 0;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     background: #5454D4;
-    border: none;
+    margin-left: 250px;
 }
-.but_second{
-    width: 344px;
-    height: 65px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #F7F7FB;
-    border: none;
-}
-.but_first p{
+.hero_fourth_but p{
     color: #FFF;
     text-align: center;
     font-family: "DM Sans", sans-serif;
@@ -308,9 +300,19 @@ header nav a{
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.5px;
-    width: 160px;
+    width: 47px;
 }
-.but_second p{
+.hero_fourth_butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 0 10px 10px 0;
+    background: #F7F7FB;
+}
+.hero_fourth_butt p{
     color: #19191B;
     text-align: center;
     font-family: "DM Sans", sans-serif;
@@ -319,9 +321,190 @@ header nav a{
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.5px;
-    width: 160px;
-
+    width: 47px;
 }
+/*------------------ hero fifth ------------------*/
+.hero_fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    gap: 15px;
+}
+.hero_fifth_one{
+    align-content: center;
+    text-align: center;
+    width: 330px;
+    height: 441px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
+.Starter{
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.Free{
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.Info{
+    color: #696871;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+.hero_fifth_but_one{
+    margin-top: 36px;
+    width: 285px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+.hero_fifth_two{
+    align-content: center;
+    text-align: center;
+    width: 376px;
+    height: 473px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+}
+.Premium{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.Money{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.InfoTwo{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+.hero_fifth_but_two{
+    margin-top: 36px;
+    width: 305px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #9F3919;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    border: none;
+}
+.hero_fifth_three{
+    align-content: center;
+    text-align: center;
+    width: 330px;
+    height: 441px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
+.Enterprise{
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.MoneySec{
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.InfoThree{
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+.hero_fifth_but_three{
+    margin-top: 36px;
+    width: 285px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+
+
+
 
 
 
