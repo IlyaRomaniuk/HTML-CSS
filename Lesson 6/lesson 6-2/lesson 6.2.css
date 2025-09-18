@@ -1,0 +1,6 @@
+h1~p{
+    color: coral;
+}
+div>div>p{
+    color: blue;
+}
