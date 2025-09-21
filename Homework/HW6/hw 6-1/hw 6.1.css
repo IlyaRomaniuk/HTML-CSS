@@ -19,7 +19,7 @@ body{
     justify-content: center;
     background-color: rgba(221, 246, 246, 0.67);
     border-radius: 20px;
-    height: 20%;
+    height: 25%;
 }
 .form-registration div:nth-child(1) h3{
     font-size: 26px;
@@ -37,10 +37,17 @@ input[type=password]{
     height: 30px;
     margin: 15px;
 }
-.form-registration div:nth-child(2){
-
+.form-registration>form>div{
     width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
+}
+form input[type=submit]{
+    background-color: rgba(221, 246, 246, 0.67);
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 80px;
+    height: 25px;
 }
