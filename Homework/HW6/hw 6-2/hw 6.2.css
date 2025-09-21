@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif, sans-serif;
+}
+div.content{
+    width: 20vw;
+    height: 45vh;
+    border: 1px solid #e4e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content>form>img{
+    width: 10vw;
+    margin-bottom: 30px;
+}
+.content form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=text],
+input[type=password]{
+    width: 260px;
+    height: 30px;
+    margin: 3px;
+    border: 1px solid #e4e2e2;
+}
+input[type=submit] {
+    width: 265px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    background-color: #09acc1;
+    border-radius: 10px;
+    color: white;
+}
+div.content>p{
+    font-weight: bold;
+    color: #8c8989;
+}
+div.content>a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+div.content>div>a{
+    text-decoration: none;
+}
+div.content>a::before{
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABR0lEQVR4nO3Zz0oDMRAG8DxZUsVbWzaD4gMpggf1Jj36EE5WEGq9eRG01PoA3jwsuNteKtiRVbT+oaVJ102C88Ecw36/3eSSFYLD4XCCTkNjIgEvJeBYgaE6RgKOJZieTNL2SuWVNvt1lVbzRuOe85v3Xh4+EKZlDSi3TUCAC3uAxpH34vA5hTUggNL0dRigKpj1rZQOOgO6vcsoLyY0ndK3BA1Y20zp6vqRFkWFDDjsDBaWDx7QH2YUNaAYPf8qvHN0QxvbZ0ut9w54+Xliid7OxbLrvQNst4xiAPxN6Xl5yidxA/rDLG7A6flD3IDjk/vwANEfYsUAwwBiADCAGKAYYBgg/h1AVny1uBoAc3sAmF7VX8F5NHbtAUna9l4c3qcB2BQuKX8u+C4vwew6lZ8hTKu8n6/zul2Wz9LYdX7zHA6HI+rKKwESa+xUAU4/AAAAAElFTkSuQmCC");
+    background-size: cover;
+    vertical-align: bottom;
+}
+div.footer{
+    margin-top: 15px;
+    width: 20vw;
+    height: 10vh;
+    border: 1px solid #e4e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.footer>p{
+    margin-right: 5px;
+}
+div.footer>a{
+    text-decoration: none;
+    color: #03bcd5;
+}
